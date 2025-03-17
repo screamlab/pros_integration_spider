@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+df4fd7298bf0892d9adcdff3b992ac5883cc3953 filter=lfs diff=lfs merge=lfs -text
+351693f5fd2eeb884e4d2e4c0f9f83465a7eaea8 filter=lfs diff=lfs merge=lfs -text
+1760f58098c035665c752c6a9b8b40eb69b105bd filter=lfs diff=lfs merge=lfs -text
