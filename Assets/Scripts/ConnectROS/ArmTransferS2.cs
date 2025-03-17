@@ -9,7 +9,7 @@ public class ArmTransferS2 : MonoBehaviour
     public ConnectRosBridge connectRos;
     public float[] jointPositions;
     public bool haveGripper = true;
-    string inputTopic = "/robot_arm";
+    string inputTopic = "/spider_joint_trajectory_point";
     List<float> data = new List<float>(); // 動態調整大小的 List
     public GameObject robot;
     RobotController robotController;
